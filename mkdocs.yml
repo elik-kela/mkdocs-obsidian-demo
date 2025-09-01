@@ -1,0 +1,48 @@
+site_name: Kela FOB documentation
+
+nav:
+  - Home: index.md
+#  - Base Types: base_types.md
+#  - Map Models:
+#    - Overview: map_models/index.md
+#    - Geometries: map_models/geometries.md
+#    - Spatial Orientation: map_models/spatial.md
+#    - Events and Features: map_models/events.md
+#  - Telemetry:
+#    - telemetry_models.md
+#  - ATAK Models:
+#    - Overview and Key Models: atak_models/index.md
+#  - Detection Models:
+#    - detection_models.md
+
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.top
+    - search.highlight
+
+plugins:
+  - search
+  - offline
