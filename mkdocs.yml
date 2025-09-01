@@ -2,7 +2,8 @@ site_name: Kela FOB documentation
 
 nav:
   - Home: index.md
-#  - Base Types: base_types.md
+  - Sample:
+    - section/video_example.md
 #  - Map Models:
 #    - Overview: map_models/index.md
 #    - Geometries: map_models/geometries.md
@@ -46,6 +47,12 @@ theme:
 plugins:
   - search
   - offline
+  - mkdocs-video:
+      is_video: True
+      video_muted: False
+      video_controls: True
+      css_style:
+        width: "50%"
 
 extra_css:
   - stylesheets/extra.css
