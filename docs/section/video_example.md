@@ -2,4 +2,4 @@
 
 Lorem ipsum dolor sit amet
 
-![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+![type:video](../content/video/00000.mp4)
