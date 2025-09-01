@@ -17,12 +17,13 @@ nav:
 #    - detection_models.md
 
 theme:
+  logo: content/styling/kela-logo.svg
   name: material
   palette:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: youtube
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -53,6 +54,15 @@ plugins:
       video_controls: True
       css_style:
         width: "50%"
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: he - עברית
+      link: /he/
+      lang: he
 
 extra_css:
   - stylesheets/extra.css
