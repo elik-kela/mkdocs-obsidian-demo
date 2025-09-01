@@ -18,6 +18,7 @@ nav:
 
 theme:
   logo: content/styling/kela-logo.svg
+#  language: he
   name: material
   palette:
 
