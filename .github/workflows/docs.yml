@@ -1,8 +1,9 @@
 name: Docs CI & Deploy
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 permissions:
   contents: read
