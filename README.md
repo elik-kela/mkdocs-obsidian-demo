@@ -17,3 +17,5 @@ tox --runner virtualenv r -e py312 # will use virtualenv+pip
 ```bash
  uv tool run tox run -e mkdocs -- build
 ```
+
+## Also GH pages
