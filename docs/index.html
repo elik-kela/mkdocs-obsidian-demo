@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <!-- This meta tag handles the immediate redirect. -->
+    <!-- The "0" means 0 seconds delay. The URL is relative to the current site root. -->
+    <meta http-equiv="refresh" content="0; url=/he/">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Redirecting you to the new page...</p>
+        <p>If you are not redirected automatically, please <a href="/he/">click here</a>.</p>
+    </div>
+    <!-- A fallback script in case the meta refresh tag is not supported -->
+    <script>
+        window.location.href = "/he/";
+    </script>
+</body>
+</html>
+

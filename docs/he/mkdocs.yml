@@ -1,2 +1,5 @@
-INHERIT: ../../mkdocs.yml
+INHERIT: ../en/mkdocs.yml
 
+site_dir: ../../site/he
+theme:
+  language: he
