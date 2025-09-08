@@ -1,5 +1,7 @@
 INHERIT: ../en/mkdocs.yml
 
+site_name: מערכת הגנת מוצב
+
 site_dir: ../../site/he
 theme:
   language: he
