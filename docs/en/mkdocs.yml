@@ -17,6 +17,7 @@ nav:
 #    - detection_models.md
 docs_dir: .
 site_dir: ../../site/en
+site_url: https://elik-kela.github.io/mkdocs-obsidian-demo/
 
 theme:
   logo: ../shared_content/styling/kela-logo.svg
