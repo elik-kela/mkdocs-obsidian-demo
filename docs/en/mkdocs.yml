@@ -62,10 +62,10 @@ plugins:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: en/
       lang: en
     - name: he - עברית
-      link: /he/
+      link: he/
       lang: he
 
 extra_css:
